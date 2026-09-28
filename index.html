@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101014">
+  <meta name="description" content="Портфолио wilberods-coder. GitHub, Modrinth, Steam и маленькая игра в большом маленьком мире.">
+  <title>wilberods — ADVANCE SP</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+</head>
+<body class="booting">
+  <section id="splash" aria-label="Добро пожаловать"><div class="splash-name" aria-label="wilberods"><span>wilber</span><span class="neon">ods</span></div><button id="enter-site"><span class="desktop-enter">Нажми пробел</span><span class="mobile-enter">Коснись, чтобы начать</span><span class="enter-line"></span></button></section>
+  <header inert><a class="wordmark" href="./">wilberods<span>®</span></a><span class="edition">PERSONAL CARTRIDGE · 001</span><button id="sound" aria-pressed="false" aria-label="Включить звук">Звук выкл. <span>◌</span></button></header>
+  <main inert>
+    <div class="intro"><span class="eyebrow">CODE. MOD. PLAY.</span><h1>Мой маленький<br>цифровой мир.</h1><p>Выбирай, что тебе интересно.<br>Всё — внутри.</p></div>
+    <div id="stage" tabindex="-1" aria-label="Интерактивная 3D-консоль Game Boy Advance SP"><div id="loading">Загрузка картриджа…</div></div>
+    <aside class="side-note"><span>AGS—001</span><i></i><span>PORTFOLIO<br>EDITION</span></aside>
+    <div class="game-bar" hidden><button id="back">← Меню</button><span id="game-help">WASD — движение · ПРОБЕЛ — огонь · P — пауза</span><button id="pause">Пауза</button></div>
+    <div id="touch-controls" hidden><div class="pad"><button data-key="ArrowUp" aria-label="Вверх">↑</button><button data-key="ArrowLeft" aria-label="Влево">←</button><button data-key="ArrowDown" aria-label="Вниз">↓</button><button data-key="ArrowRight" aria-label="Вправо">→</button></div><button class="fire" data-key=" " aria-label="Стрелять">A</button></div>
+    <nav class="quick-nav" aria-label="Меню портфолио"><button data-menu="0">GitHub <span>↗</span></button><button data-menu="1">Modrinth <span>↗</span></button><button data-menu="2">Steam <span>↗</span></button><button data-menu="3">Проекты <span>03</span></button><button class="play" data-menu="4">Играть <span>▶</span></button></nav>
+  </main>
+  <footer inert><span>© 2026 WILBERODS</span><div><kbd>↑</kbd><kbd>↓</kbd><span>выбрать</span><kbd>Enter</kbd><span>открыть</span></div><span class="footer-right">Немного кода. Много любопытства.</span></footer>
+  <p class="sr-only" id="status" aria-live="polite">Выбран GitHub. Используйте стрелки и Enter или меню ссылок.</p>
+  <script type="module" src="app.js"></script>
+</body></html>
